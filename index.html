@@ -1,0 +1,282 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Form</title>
+  </head>
+
+  <body style="background-image: linear-gradient(to right, #00b09b, #96c93d)">
+    <div class="container">
+      <div class="row h-100 fs-4">
+        <div
+          class="col ps-5 pe-2 pt-4 fs-4shadow-sm"
+          style="
+            color: rgb(65, 65, 220);
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            background: white;
+            margin-left: 180px;
+            margin-top: 120px;
+            margin-bottom: 120px;
+            margin-right: 100px;
+          "
+        >
+          General Information
+
+          <select
+            type="text"
+            class="shadow-sm"
+            name="languages"
+            id="lang"
+            style="margin-top: 30px; width: 87%;"
+          >
+            <option value="" disabled selected hidden>Title</option>
+            <option value="intern">Intern</option>
+            <option value="junior software engineer">
+              Junior Software Engineer
+            </option>
+            <option value="software engineer">Software Engineer</option>
+            <option value="senior software engineer">
+              Senior Software Engineer
+            </option>
+          </select>
+
+          <div class="row mt-4">
+            <div class="col">
+              <input
+                style="width: 87%"
+                type="text"
+                class="form-control shadow-sm"
+                placeholder="First name"
+                aria-label="First name"
+              />
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <input style="width: 92%;"
+                  type="text"
+                  class="form-control shadow-sm"
+                  placeholder="Last Name"
+                  aria-label="Last Name"
+                />
+              </div>
+            </div>
+
+            <select
+              type="text"
+              class="shadow-sm mt-4"
+              style="margin-left: 11px; width: 83%"
+              name="languages"
+              id="lang"
+            >
+              <option value="" disabled selected hidden>Position</option>
+              <option value="eb developer">Web Developer</option>
+              <option value="mobile app developer">Mobile App Developer</option>
+              <option value="video game designer">Video game designer</option>
+              <option value="database administrator">
+                Database administrator
+              </option>
+            </select>
+
+            <div class="row mt-4">
+              <div class="col">
+                <input
+                style="width: 92%;"
+                  type="text"
+                  class="form-control shadow-sm"
+                  placeholder="Position"
+                  aria-label="Position"
+                />
+              </div>
+            </div>
+
+            <div class="row mt-4 ps-4">
+              <input
+                style="width: 90%"
+                type="text"
+                class="form-control shadow-sm"
+                placeholder="Business Arena"
+                aria-label="Business Arena"
+              />
+
+              <select
+                type="text"
+                class="minimal shadow-sm mt-4"
+                style="width: 90%"
+                name="languages"
+                id="lang"
+              >
+                <option value="" disabled selected hidden>Employees</option>
+                <option value="employee 1">Employee 1</option>
+                <option value="employee 2">Employee 2</option>
+                <option value="employee 3">Employee 3</option>
+                <option value="employee 4">Employee 4</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col pt-4 text-white fs-4 shadow-sm"
+          style="
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            background: rgb(65, 65, 220);
+            margin-left: -120px;
+            margin-top: 120px;
+            margin-bottom: 120px;
+            margin-right: 180px;
+          "
+        >
+        
+        <div class="heading" style="padding-left: 20px">Contact Details</div>
+
+            <div class="row pt-1 ps-4 pe-4">
+                <div class="col pt-4">
+                <input
+                    id="form-control"
+                    type="text"
+                    class="form-control"
+                    placeholder="Street + Nr"
+                    aria-label="Position"
+                    style="
+                    border-color: white;
+                    "
+                />
+                </div>
+            </div>
+
+            <div class="row ps-4 pe-4">
+                <div class="col pt-4">
+                <input
+                    id="form-control"
+                    type="text"
+                    class="form-control"
+                    placeholder="Additional Information"
+                    aria-label="Additional Information"
+                    style="
+                    border-color: white;
+                    "
+                />
+                </div>
+            </div>
+
+            <div class="row pt-1 ps-4 pe-4">
+                <div class="col pt-4">
+                <input
+                    id="form-control"
+                    type="text"
+                    class="form-control"
+                    placeholder="Zip Code"
+                    aria-label="Position"
+                    style="
+                    border-color: white; 
+                    "
+                />
+                </div>
+            </div>
+
+            <div class="row ps-4 pe-4">
+                <div class="col pt-4">
+                <input
+                    id="form-control"
+                    type="text"
+                    class="form-control"
+                    placeholder="Place"
+                    aria-label="Additional Information"
+                    style="
+                    border-color: white;
+                    "
+                />
+                </div>
+            </div>
+
+            <div class="row ps-4 pe-4">
+                <div class="col pt-4">
+                <input
+                    id="form-control"
+                    type="text"
+                    class="form-control"
+                    placeholder="Country"
+                    aria-label="Additional Information"
+                    style="
+                    border-color: white;
+                    "
+                />
+                </div>
+            </div>
+
+            <div class="row ps-4 pe-4">
+                <div class="col pt-4">
+                <input
+                    id="form-control"
+                    type="text"
+                    class="form-control"
+                    placeholder="Phone Number"
+                    aria-label="Additional Information"
+                    style="
+                    border-color: white;
+                    "
+                />
+                </div>
+            </div>
+
+                
+            <div class="row ps-4 pe-4">
+                <div class="col pt-4">
+                <input
+                    id="form-control"
+                    type="text"
+                    class="form-control"
+                    placeholder="name@gmail.com"
+                    aria-label="Additional Information"
+                    style="
+                    border-color: white;
+                    "
+                />
+                </div>
+            </div>
+
+            <div class="form-check pt-3 ps-2">
+                <input type="checkbox" class="larger" name="checkBox1" />
+                <label
+                    class="form-check-label"
+                    for="flexCheckDefault"
+                
+                >
+                    I do accept <span>Term and Conditions</span> of your site.
+                </label>
+            </div>
+
+            <button type="button" class="btn btn-light ms-4 mt-3">
+                Register
+            </button>
+        </div>
+       </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
