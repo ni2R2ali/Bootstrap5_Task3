@@ -1,0 +1,36 @@
+#form-control::placeholder {
+  color: white;
+}
+span {
+  text-decoration: underline;
+}
+
+label {
+  font-size: 15px;
+}
+
+input.larger {
+  margin-left: 0;
+  margin: 15px;
+  transform: scale(1);
+}
+
+.form-check {
+  padding-left: 0;
+}
+
+select {
+  background-color: white;
+  border-color: gray;
+  width: 93%;
+  margin-top: 50px;
+  font-size: 17px;
+  padding: 7px;
+  border-radius: 3px;
+  border-color: lightgray;
+  color: grey;
+}
+
+select[type="text"]:focus {
+  border: 1px solid lightblue;
+}
